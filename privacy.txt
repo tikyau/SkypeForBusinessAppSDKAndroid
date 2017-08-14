@@ -1,0 +1,9 @@
+When you redistribute components from this SDK two types of telemetry may be sent from user devices as described in the Skype for Business data collection practices article (https://support.office.com/en-us/article/Skype-for-Business-data-collection-practices-c17e8ea6-b83b-4345-9401-47a6c8b13aad)
+
+1. Census data, which neither the user nor the admin can disable; and 2. Usage data, which the admin can disable. This includes census data generated when unauthenticated guests attempt to join a Skype for Business meeting.  However, no error reporting data or personally identifiable information will be sent.
+
+As a developer leveraging this SDK you may want to communicate this behavior proactively to reduce the chance that someone might raise questions or concerns about this behavior.
+
+When you create an app with this SDK the app ID will be recorded within the app itself, this app ID may be included in the census data.
+
+For more information about Microsoft's commitments to maintaining our customers privacy see the Skype for Business Privacy Statement (https://www.microsoft.com/EN-US/privacystatement/SkypeforBusiness/Default.aspx). 
